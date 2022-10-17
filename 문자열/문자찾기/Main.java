@@ -19,6 +19,5 @@ public class Main {
         String str = sc.next();
         char c = sc.next().charAt(0);
         System.out.println(T.solution(str, c));
-        return;
     }
 }
