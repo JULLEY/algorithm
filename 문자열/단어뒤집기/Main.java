@@ -2,6 +2,7 @@ package 문자열.단어뒤집기;
 
 import java.util.Scanner;
 
+// 단어뒤집기
 public class Main {
 
     public static void main(String[] args) {

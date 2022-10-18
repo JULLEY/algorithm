@@ -2,6 +2,7 @@ package 문자열.대소문자변환;
 
 import java.util.Scanner;
 
+// 대소문자 변환
 public class Main {
     public static String solution(String str) {
         String answer = "";

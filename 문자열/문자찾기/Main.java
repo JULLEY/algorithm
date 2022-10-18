@@ -2,6 +2,7 @@ package 문자열.문자찾기;
 
 import java.util.Scanner;
 
+// 문자찾기
 public class Main {
     public int solution(String str, char c) {
         int answer = 0;

@@ -2,6 +2,7 @@ package 문자열.문장속단어;
 
 import java.util.Scanner;
 
+// 문장 속 단어
 public class Main {
     public static String solution(String str) {
         String[] words = str.split(" ");
