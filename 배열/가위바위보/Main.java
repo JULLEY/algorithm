@@ -12,11 +12,11 @@ public class Main {
     public static void solution(int size, int[] arr1, int[] arr2) {
         String result = "";
 
-        for(int i = 0; i < size; i++){
+        for (int i = 0; i < size; i++) {
             result += (arr1[i] == arr2[i]) ? "D" : ((1 == arr1[i] && 3 == arr2[i]) || (2 == arr1[i] && 1 == arr2[i]) || (3 == arr1[i] && 2 == arr2[i])) ? "A" : "B";
         }
 
-        for(char x : result.toCharArray()){
+        for (char x : result.toCharArray()) {
             System.out.println(x);
         }
     }
